@@ -1,0 +1,22 @@
+<html>
+<head>
+   <title>Add Employees</title>
+    <script type="text/javascript" src="Form.js"></script>
+</head>
+<body>
+	<h3>Add Employee</h3>
+   <form action=" http://127.0.0.1:3000/AddEmployee" method="post">
+   	Employee Name:<input type="text" name="EmployeeName" value ="">
+   	<br>
+
+   	Employee Age:<input type="text" name="Age" value="">
+   	<br>
+
+   	Contact Number:<input type="text" name="ContactNumber" value = "">
+   	<br>
+	Email Id:<input type="text" name="EmailId" value="">
+   	<input type="submit" value="submit">
+     <button type="submit" formmethod="get" formaction=" http://127.0.0.1:3000/listEmployee">Employee List </button>
+   </form>
+</body>
+</html>
