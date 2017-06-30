@@ -50,4 +50,3 @@ mangoFruit.nativeTo();
 This is a Generic Fruit
 
 Grown in:USA
-Penelope Barrymore
